@@ -1,0 +1,90 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #ffffff;
+  max-width: 90%;
+  border-radius: 8px;
+  padding: 30px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Title */
+.modal h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Group Name Row */
+.inputRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputRow label {
+  font-weight: 500;
+  min-width: 110px;
+}
+
+.inputRow input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Color Row */
+.colorRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.colorRow label {
+  min-width: 110px;
+  font-weight: 500;
+}
+
+.colors {
+  display: flex;
+  gap: 15px;
+}
+
+/* Color Circle */
+.colorCircle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.selected {
+  border: 3px solid black;
+}
+
+/* Create Button */
+.createBtn {
+  align-self: flex-end;
+  padding: 8px 25px;
+  border-radius: 15px;
+  border: none;
+  background-color: #001f8b;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}

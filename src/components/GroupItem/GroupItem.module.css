@@ -1,0 +1,23 @@
+.groupItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.groupItem:hover {
+  background-color: #f0f0f0;
+}
+
+.groupCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* background: #16008b; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-weight: bold;
+}

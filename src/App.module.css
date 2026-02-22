@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .app {
+    display: block;
+    height: 100vh;
+  }
+}
+/* @media (max-width: 768px) {
+  .addBtn {
+    right: 20px;
+    bottom: 20px;
+  }
+} */

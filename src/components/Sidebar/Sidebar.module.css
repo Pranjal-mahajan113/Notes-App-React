@@ -1,0 +1,51 @@
+.sidebar {
+  width: 280px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+}
+
+.sidebarHeader {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+}
+
+.addBtn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  background: transparent; /* Remove default button bg */
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.addBtn img {
+  width: 35px;
+  height: 35px;
+}
+.groupsList {
+  flex: 1;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 80px;
+}
+
+/* @media (max-width: 768px) {
+  .addBtn {
+    right: 20px;
+    bottom: 20px;
+  }
+} */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+  }
+}
